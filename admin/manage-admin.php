@@ -18,12 +18,15 @@
                 echo $_SESSION['delete'];
                 unset($_SESSION['delete']);
             }
+<<<<<<< HEAD
 
             if(isset($_SESSION['update']))
             {
                 echo $_SESSION['update'];
                 unset($_SESSION['update']);
             }
+=======
+>>>>>>> aae42952bd241911c7d4a9ac0310bf7adc640939
         ?>
 
         <br/> <br/>
@@ -66,7 +69,11 @@
                                 <td><?php echo $full_name ?></td>
                                 <td><?php echo $username ?></td>
                                 <td>
+<<<<<<< HEAD
                                     <a href="<?php echo SITEURL;?>update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Actualizar</a>
+=======
+                                    <a href="#" class="btn-secondary">Actualizar</a>
+>>>>>>> aae42952bd241911c7d4a9ac0310bf7adc640939
                                     <a href="<?php echo SITEURL;?>delete-admin.php?id=<?php echo $id; ?>" class="btn-danger">Borrar</a>
                                 </td>
                             </tr>
