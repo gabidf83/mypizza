@@ -18,12 +18,17 @@
                 echo $_SESSION['delete'];
                 unset($_SESSION['delete']);
             }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> cd52f30510ad8e7184d31a8f67eeaf9cbdc78242
 
             if(isset($_SESSION['update']))
             {
                 echo $_SESSION['update'];
                 unset($_SESSION['update']);
             }
+<<<<<<< HEAD
 
             if(isset($_SESSION['user-not-found']))
             {
@@ -48,6 +53,10 @@
                 echo $_SESSION['error-change-psw'];
                 unset($_SESSION['error-change-psw']);
             }
+=======
+=======
+>>>>>>> aae42952bd241911c7d4a9ac0310bf7adc640939
+>>>>>>> cd52f30510ad8e7184d31a8f67eeaf9cbdc78242
         ?>
 
         <br/> <br/>
@@ -90,8 +99,16 @@
                                 <td><?php echo $full_name ?></td>
                                 <td><?php echo $username ?></td>
                                 <td>
+<<<<<<< HEAD
                                     <a href="<?php echo SITEURL;?>update-password.php?id=<?php echo $id; ?>" class="btn-primary">Cambiar contraseña</a>
                                     <a href="<?php echo SITEURL;?>update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Actualizar</a>
+=======
+<<<<<<< HEAD
+                                    <a href="<?php echo SITEURL;?>update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Actualizar</a>
+=======
+                                    <a href="#" class="btn-secondary">Actualizar</a>
+>>>>>>> aae42952bd241911c7d4a9ac0310bf7adc640939
+>>>>>>> cd52f30510ad8e7184d31a8f67eeaf9cbdc78242
                                     <a href="<?php echo SITEURL;?>delete-admin.php?id=<?php echo $id; ?>" class="btn-danger">Borrar</a>
                                 </td>
                             </tr>

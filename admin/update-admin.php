@@ -53,7 +53,11 @@
                 <tr>
                     <td colspan="2">
                         <!--el id lo pintamos hidden para que no se vea pero poder utilizarlo-->
+<<<<<<< HEAD
                         <input type="hidden" name="id" value="<?php echo $id; ?>">
+=======
+                        <input type="hidden" name="id" value="<?php echo $username; ?>">
+>>>>>>> cd52f30510ad8e7184d31a8f67eeaf9cbdc78242
                         <input type="submit" name="submit" value="Actualizar administrador" class="btn-secondary">
                     </td>
                 </tr>
